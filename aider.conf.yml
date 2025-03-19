@@ -1,0 +1,69 @@
+# Model settings
+model: gemini-2.0-flash-thinking-exp-01-21
+weak-model: gemini-2.0-flash-exp
+show-model-warnings: true
+max-chat-history-tokens: 4000
+architect: true
+
+# Git settings
+git: true
+gitignore: true
+auto-commits: true
+dirty-commits: true
+attribute-author: true
+attribute-committer: true
+show-diffs: true
+commit-prompt: "Write a concise and specific commit message describing the changes made:"
+
+# Output settings
+dark-mode: true
+pretty: true
+stream: true
+
+# Colors
+user-input-color: "#EDDA6A"
+user-error-color: "#ffc444" 
+user-warning-color: "#ff4400"
+assistant-input-color: "#f382f3"
+assistant-output-color: "#f382f3"
+assistant-input-background-color: "#929292"
+assistant-output-background-color: "#929292"
+tool-input-color: "#44ffc1"
+tool-output-color: "#44ffc1"
+tool-error-color: "#ffc444"
+tool-warning-color: "#ff4400" 
+
+# History and persistence
+input-history-file: .aider.input.history
+chat-history-file: .aider.chat.history.md
+restore-chat-history: true
+restore-input-history: true
+restore-llm-history: true
+llm-history-file: .aider.llm.history
+analytics: true
+analytics-file: .aider.analytics.json
+keep-alive: true
+keep-alive-file: .aider.keep-alive.json
+
+# Editor settings
+fancy-input: true
+edit-format: diff
+edit-format-regex: true
+edit-format-regex-flags: "g"
+edit-format-regex-multiline: true
+edit-format-regex-dotall: true
+edit-format-regex-unicode: true
+edit-format-regex-sticky: true
+edit-format-regex-verbose: true
+edit-format-regex-lookbehind: true
+edit-format-regex-unicode-escape: true
+edit-format-regex-ascii: true
+edit-format-regex-extended: true
+multiline: true
+detect-urls: true
+watch-files: true
+
+# Performance and caching
+cache-prompts: true
+map-tokens: 2048
+cache-dir: .aider/cache

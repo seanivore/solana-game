@@ -1,0 +1,38 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Python build artifacts
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Aider files
+.aider.chat.history.md
+.aider.tags.cache.v3
+
+# Dependencies
+node_modules/
+npm-debug.log*
+*.log
+*.lock
+
+# OS files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+*.swp
+*.swo
+
+# Rust specific
+target/
+**/*.rs.bk
+.cargo/
+rusty-tags.vi

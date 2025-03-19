@@ -74,10 +74,23 @@ Goals for first session:
 - Evaluate Gemini Flash as editor
 - Document interaction patterns that work well
 
-### Next Steps During 0709-1000 Gap:
-1. Continue with architect mode to refine state management design
-2. Record any insights about managing scope vs flexibility
-3. Note which examples/docs were most useful
+### Next Steps After 0709-1000 Gap:
+1. Plan first Aider ask / Architect Discussion 
+      - Architect VS Editor info. https://aider.chat/2024/09/26/architect.html 
+      - Fill out CONVENTIONS.md /Users/seanivore/Development/solana-game-project/CONVENTIONS.md 
+      - Turn on 'Enable watching files for ai coding comments'
+      - Prompt for what we need 
+2. What docs and what tasks are we running first, second, etc. 
+      - First command, read VS edit files, documentation needed 
+      - Examples and extent of information provided 
+      - Outline and explain all steps to Sean 
+3. Setup System 
+      - Running http://localhost:1234/v1 deepseek-r1-distill-qwen-7b as Architect 
+      - Set up Gemini as Editor 
+      - Command to set "yes-always" for 'always say yes to every confirmation'
+4. Start with architect mode to refine state management design
+      - Record any insights about managing scope vs flexibility
+      - Note which examples/docs were most useful/what need more of/etc. 
 4. Begin implementation with Gemini if design is solid
 5. Document everything for future Claude to review
 
